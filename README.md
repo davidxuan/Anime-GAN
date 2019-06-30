@@ -8,13 +8,17 @@ The architecture is simple, the discriminator and the generator each has 4 conv 
 
 ## Instructions
 1. Clone this repository and navigate to the folder.
+   
    `git clone https://github.com/davidxuan/Anime-GAN.git`
+
    `cd Anime-GAN`
 
 2. Use train_gan.ipynb to train the models.
+   
    `jupyter notebook tran_gan.ipynb`
 
 3. Use generate_samples.ipynb to load the models and generate some faces.
+   
    `jupyter notebook generate_samples.ipynb`
 
 4. If you wish to change the GAN architecture, modify model.py.
